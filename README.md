@@ -182,3 +182,11 @@ VIMRUNTIME="/usr/local/share/nvim/runtime"
 - you should see your theme change, and command syntax highlighting should work
 
 `vi ~/.config/nvim/init.vim`
+
+- install nvim plugins
+
+`:PlugInstall`
+
+- source the vimrc
+
+`so %`
