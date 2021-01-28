@@ -64,6 +64,8 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 `brew install gcc`
 
+`brew install node`
+
 
 ## Confirm Docker is working
 
