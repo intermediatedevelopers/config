@@ -48,4 +48,4 @@ call plug#end()
 
 colorscheme shades_of_purple
 
-echo "you da bawss"
+echo "stowed!"
