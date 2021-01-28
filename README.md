@@ -111,3 +111,9 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 `git clone https://github.com/neovim/neovim.git`
 
+`cd neovim`
+
+```
+make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
+```
