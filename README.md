@@ -77,7 +77,7 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
   
   - now if you try running the docker command again, you will get a permission denied error
   
-  -to fix the error, run the following commands
+  - to fix the error, run the following commands
   
   `sudo groupadd docker`
   
