@@ -89,7 +89,7 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
   
   `docker run hello-world`
 
-## Install neovim (latest)
+## Install Neovim (latest)
 
 - once you have confirmed you can run Docker, run the following to install neovim
 
@@ -106,4 +106,8 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 - install prerequisites
 
 `sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip`
+
+- clone the repo
+
+`git clone https://github.com/neovim/neovim.git`
 
