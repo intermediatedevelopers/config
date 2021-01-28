@@ -96,3 +96,7 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 `brew install neovim --HEAD`
 
 - if you have issues installing with brew, you can try [Building Neovim from source](https://github.com/neovim/neovim/wiki/Building-Neovim)
+
+- if your installation is hanging on `cmake --build .`, check your task manager
+
+- if your CPU is pegged, you may have better luck building from source 
