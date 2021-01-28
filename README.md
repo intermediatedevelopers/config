@@ -2,6 +2,8 @@
 
 ## This readme includes instructions to set up all prerequisites
 
+## If you just want the dotfiles, jump to [Install GNU Stow](#install-gnu-stow)
+
 Prerequisites: 
 
 - neovim (latest)
@@ -62,6 +64,8 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 `brew install gcc`
 
+`brew install node`
+
 
 ## Confirm Docker is working
 
@@ -75,7 +79,7 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
   
   - now if you try running the docker command again, you will get a permission denied error
   
-  -to fix the error, run the following commands
+  - to fix the error, run the following commands
   
   `sudo groupadd docker`
   
@@ -146,7 +150,47 @@ VIMRUNTIME="/usr/local/share/nvim/runtime"
 
 `cd dotfiles`
 
+- delete the readme
+
+`rm README.md`
+
+- delete your .zshrc (make sure you copy down your vimruntime first if you installed neovim from source)
+
+`rm ~/.zshrc`
+
 - apply symlinks
 
 `stow *`
 
+## Install Plugins
+
+`cd ~`
+
+- vim-plug
+
+`sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
+
+- zsh-z
+
+`git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z`
+
+- zsh-syntax-highlighting
+
+`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+
+## Source Configs
+
+`source ~/.zshrc`
+
+- you should see your theme change, and command syntax highlighting should work
+
+`vi ~/.config/nvim/init.vim`
+
+- install nvim plugins
+
+`:PlugInstall`
+
+- source the vimrc
+
+`so %`
