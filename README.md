@@ -167,3 +167,18 @@ VIMRUNTIME="/usr/local/share/nvim/runtime"
 `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
 
+- zsh-z
+
+`git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z`
+
+- zsh-syntax-highlighting
+
+`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+
+## Source Configs
+
+`source ~/.zshrc`
+
+- you should see your theme change, and command syntax highlighting should work
+
+`vi ~/.config/nvim/init.vim`
