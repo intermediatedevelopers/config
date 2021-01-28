@@ -152,7 +152,7 @@ VIMRUNTIME="/usr/local/share/nvim/runtime"
 
 `rm README.md`
 
--delete your .zshrc (make sure you copy down your vimruntime first if you installed neovim from source)
+- delete your .zshrc (make sure you copy down your vimruntime first if you installed neovim from source)
 
 `rm ~/.zshrc`
 
