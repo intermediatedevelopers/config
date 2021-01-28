@@ -126,3 +126,12 @@ sudo make install
 VIMRUNTIME="/usr/local/share/nvim/runtime"
 ```
 > Note that this line is not included in the .zshrc for this dotfiles repo. If you are building neovim from source, copy this path down somewhere. You will need to add it to the .zshrc after syncing the dotfiles from this repo
+
+- source the config 
+
+`source ~/.zshrc`
+
+
+## Confirm Neovim Installation
+
+`nvim`
