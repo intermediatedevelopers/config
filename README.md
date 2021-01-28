@@ -135,3 +135,7 @@ VIMRUNTIME="/usr/local/share/nvim/runtime"
 ## Confirm Neovim Installation
 
 `nvim --version`
+
+## Install GNU Stow
+
+`sudo apt-get install stow`
