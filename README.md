@@ -31,5 +31,6 @@ Prerequisites:
 
 - seleect 'Yes' at the prompt to set it as your default shell
 
+## Install Homebrew
 
-
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
