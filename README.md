@@ -146,6 +146,14 @@ VIMRUNTIME="/usr/local/share/nvim/runtime"
 
 `cd dotfiles`
 
+- delete the readme
+
+`rm README.md`
+
+-delete your .zshrc (make sure you copy down your vimruntime first if you installed neovim from source)
+
+`rm ~/.zshrc`
+
 - apply symlinks
 
 `stow *`
