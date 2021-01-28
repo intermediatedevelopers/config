@@ -41,7 +41,12 @@ Prerequisites:
 
 - add the following lines somewhere in the file to add Homebrew to your path
 
-`eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
+```
+# replace <user> with your linux username
+
+echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/<user>/.profile
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+```
 
 - source the config 
 
