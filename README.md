@@ -124,9 +124,8 @@ make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
 ```
 
-- set the vim runtime in your .zshrc
+- you may need to set the vim runtimes
 ```
-# in .zshrc
 VIMRUNTIME="/usr/local/share/nvim/runtime"
 ```
 > Note that this line is not included in the .zshrc for this dotfiles repo. If you are building neovim from source, copy this path down somewhere. You will need to add it to the .zshrc after syncing the dotfiles from this repo
@@ -154,7 +153,7 @@ VIMRUNTIME="/usr/local/share/nvim/runtime"
 
 `rm README.md`
 
-- delete your .zshrc (make sure you copy down your vimruntime first if you installed neovim from source)
+- delete your .zshrc
 
 `rm ~/.zshrc`
 
