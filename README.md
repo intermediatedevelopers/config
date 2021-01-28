@@ -58,3 +58,6 @@ Prerequisites:
 `brew install gcc`
 
 
+## Install neovim (latest)
+
+`brew install neovim --HEAD`
