@@ -113,6 +113,8 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 `cd neovim`
 
+- build and install
+
 ```
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
