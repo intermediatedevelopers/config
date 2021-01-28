@@ -34,3 +34,13 @@ Prerequisites:
 ## Install Homebrew
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+## Homebrew Follow-up 
+
+`vi ~/.zshrc`
+
+- add the following lines somewhere in the file
+
+`eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
+
+
