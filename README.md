@@ -100,3 +100,10 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 - if your installation is hanging on `cmake --build .`, check your task manager
 
 - if your CPU is pegged, you may have better luck building from source 
+
+## Building Neovim from Source (if the above step failed)
+
+- install prerequisites
+
+`sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip`
+
