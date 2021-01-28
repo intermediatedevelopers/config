@@ -139,3 +139,13 @@ VIMRUNTIME="/usr/local/share/nvim/runtime"
 ## Install GNU Stow
 
 `sudo apt-get install stow`
+
+## Get dotfiles
+
+- clone this repo
+
+`cd dotfiles`
+
+- apply symlinks
+
+`stow *`
