@@ -39,8 +39,22 @@ Prerequisites:
 
 `vi ~/.zshrc`
 
-- add the following lines somewhere in the file
+- add the following lines somewhere in the file to add Homebrew to your path
 
 `eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
+
+- source the config 
+
+`source ~/.zshrc`
+
+- test brew installation
+
+`brew --version`
+
+- install build tools
+
+`sudo apt-get install build-essential`
+
+`brew install gcc`
 
 
