@@ -58,6 +58,16 @@ Prerequisites:
 `brew install gcc`
 
 
+## Confirm Docker is working
+
+`docker run hello-world`
+
+- if the above command fails, go to https://docs.docker.com/docker-for-windows/wsl/
+
+- if on WSL, you may need to configure your Docker Desktop settings
+
+    - Settings > Resources > WSL Integration > Select the distro
+
 ## Install neovim (latest)
 
 `brew install neovim --HEAD`
