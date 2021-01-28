@@ -94,3 +94,5 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 - once you have confirmed you can run Docker, run the following to install neovim
 
 `brew install neovim --HEAD`
+
+- if you have issues installing with brew, you can try [Building Neovim from source](https://github.com/neovim/neovim/wiki/Building-Neovim)
