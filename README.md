@@ -66,7 +66,7 @@ Prerequisites:
 
 - if on WSL, you may need to configure your Docker Desktop settings
 
-    - Settings > Resources > WSL Integration > Select the distro
+    - Settings > Resources > WSL Integration > Select your distro > Apply & Restart
 
 ## Install neovim (latest)
 
