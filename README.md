@@ -2,6 +2,8 @@
 
 ## This readme includes instructions to set up all prerequisites
 
+## If you just want the dotfiles, jump to [Install GNU Stow]
+
 Prerequisites: 
 
 - neovim (latest)
