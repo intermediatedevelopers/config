@@ -62,12 +62,30 @@ Prerequisites:
 
 `docker run hello-world`
 
-- if the above command fails, go to https://docs.docker.com/docker-for-windows/wsl/
-
 - if on WSL, you may need to configure your Docker Desktop settings
 
+    - https://docs.docker.com/docker-for-windows/wsl/
+
     - Settings > Resources > WSL Integration > Select your distro > Apply & Restart
+  
+  - now if you try running the docker command again, you will get a permission denied error
+  
+  -to fix the error, run the following commands
+  
+  `sudo groupadd docker`
+  
+  `sudo usermod -aG docker ${USER}`
+  
+  - restart terminal
+  
+  `su -s ${USER}` (you will probably get an authentication failure -- I still run the command anyway)
+  
+  - now you should be able to run
+  
+  `docker run hello-world`
 
 ## Install neovim (latest)
+
+- once you have confirmed you can run Docker, run the following to install neovim
 
 `brew install neovim --HEAD`
