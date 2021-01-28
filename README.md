@@ -134,4 +134,4 @@ VIMRUNTIME="/usr/local/share/nvim/runtime"
 
 ## Confirm Neovim Installation
 
-`nvim`
+`nvim --version`
