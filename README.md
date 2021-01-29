@@ -23,6 +23,9 @@ Prerequisites:
 
 `sudo apt upgrade`
 
+## Install Node.js
+
+`sudo apt-get install nodejs`
 
 ## Install zsh
 
@@ -45,6 +48,7 @@ Prerequisites:
 - add the following lines somewhere in the file to add Homebrew to your path
 
 ```
+# in .zshrc
 # replace <user> with your linux username
 
 echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/<user>/.profile
