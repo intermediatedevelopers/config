@@ -55,7 +55,17 @@ Prerequisites:
 
 - seleect 'Yes' at the prompt to set it as your default shell
 
-## Install Homebrew
+
+## Install Neovim (On WSL, this is the most straightforward)
+
+```
+sudo add-apt-repository ppa:neovim-ppa/unstable 
+sudo apt-get update
+sudo apt-get install neovim
+```
+
+
+## Install Homebrew (if having issues with the step aboveP
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
