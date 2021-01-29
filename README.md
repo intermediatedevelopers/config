@@ -93,6 +93,14 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
   - now you should be able to run
   
   `docker run hello-world`
+  
+  > Note: after you run the Docker commands and restart your terminal, sometimes it sets your shell back to /bin/bash
+  
+  - to set terminal back to zsh:
+  
+  `chsh -s $(which zsh)`
+  
+  - then restart terminal again
 
 ## Install Neovim (latest)
 
