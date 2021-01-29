@@ -33,7 +33,11 @@ Prerequisites:
 
 - keep in mind that you will need to run  `npm init` as well as `eslint --init` in the root directory of your project for ESLint to work
 
-- TODO:  figure out a solution for a global config
+    - TODO:  figure out a solution for a global config
+
+- also need a `jsconfig.json` file located in project root
+
+    - TODO: figure out a solution for global config
 
 ## Install zsh
 
