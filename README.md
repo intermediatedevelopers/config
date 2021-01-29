@@ -31,6 +31,10 @@ Prerequisites:
 
 `npm install -g eslint`
 
+- keep in mind that you will need to run  `npm init` as well as `eslint --init` in the root directory of your project for ESLint to work
+
+- TODO:  figure out a solution for a global config
+
 ## Install zsh
 
 `sudo apt-get install zsh`
