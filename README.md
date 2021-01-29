@@ -38,6 +38,10 @@ Prerequisites:
 - also need a `jsconfig.json` file located in project root
 
     - TODO: figure out a solution for global config
+ 
+ > Note: to see the ESLint warnings/errors, you must place your cursor over the underlined variable/expression
+ >      - then the error will show in the preview window
+ >      - simply putting your cursor on the line is not enough
 
 ## Install zsh
 
