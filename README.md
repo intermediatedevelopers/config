@@ -56,50 +56,6 @@ Prerequisites:
 - seleect 'Yes' at the prompt to set it as your default shell
 
 
-## Install Neovim (On WSL, this is the most straightforward)
-
-```
-sudo add-apt-repository ppa:neovim-ppa/unstable 
-sudo apt-get update
-sudo apt-get install neovim
-```
-
-
-## Install Homebrew (if having issues with the step aboveP
-
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-
-## Homebrew Follow-up 
-
-`vi ~/.profile`
-
-- add the following lines somewhere in the file to add Homebrew to your path
-
-```
-# in .zshrc
-# replace <user> with your linux username
-
-echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/<user>/.profile
-eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-```
-
-- source the config 
-
-`source ~/.zshrc`
-
-- test brew installation
-
-`brew --version`
-
-- install build tools
-
-`sudo apt-get install build-essential`
-
-`brew install gcc`
-
-`brew install node`
-
-
 ## Confirm Docker is working
 
 `docker run hello-world`
@@ -134,7 +90,52 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
   
   - then restart terminal again
 
-## Install Neovim (latest)
+
+## Install Neovim (On WSL, this is the most straightforward)
+
+```
+sudo add-apt-repository ppa:neovim-ppa/unstable 
+sudo apt-get update
+sudo apt-get install neovim
+```
+
+
+## Install Homebrew (if having issues with the step above)
+
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+### Homebrew Follow-up 
+
+`vi ~/.profile`
+
+- add the following lines somewhere in the file to add Homebrew to your path
+
+```
+# in .zshrc
+# replace <user> with your linux username
+
+echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> /home/<user>/.profile
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+```
+
+- source the config 
+
+`source ~/.zshrc`
+
+- test brew installation
+
+`brew --version`
+
+- install build tools
+
+`sudo apt-get install build-essential`
+
+`brew install gcc`
+
+`brew install node`
+
+
+## Install Neovim (latest) with Homebrew
 
 - once you have confirmed you can run Docker, run the following to install neovim
 
