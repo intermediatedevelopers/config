@@ -27,6 +27,10 @@ Prerequisites:
 
 `sudo apt-get install nodejs`
 
+## Install ESLint
+
+`npm install -g eslint`
+
 ## Install zsh
 
 `sudo apt-get install zsh`
