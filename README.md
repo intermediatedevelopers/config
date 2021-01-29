@@ -40,7 +40,7 @@ Prerequisites:
 
 ## Homebrew Follow-up 
 
-`vi ~/.zshrc`
+`vi ~/.profile`
 
 - add the following lines somewhere in the file to add Homebrew to your path
 
