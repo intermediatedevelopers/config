@@ -180,6 +180,7 @@ sudo make install
 ```
 # in .zshrc
 
+# (WSL2-specific setting)
 export DISPLAY="$(/sbin/ip route | awk '/default/ { print $3  }'):0"
 
 # in vimrc
