@@ -35,7 +35,7 @@ Prerequisites:
 
     - TODO:  figure out a solution for a global config
 
-- also need a `jsconfig.json` file located in project root
+- May also need a `jsconfig.json` file located in project root: [read more](https://code.visualstudio.com/docs/languages/jsconfig)
 
     - TODO: figure out a solution for global config
  
