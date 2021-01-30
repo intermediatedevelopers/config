@@ -177,6 +177,18 @@ sudo make install
 
 `sudo apt-get install xclip`
 
+```
+# in .zshrc
+
+export DISPLAY="$(/sbin/ip route | awk '/default/ { print $3  }'):0"
+
+# in vimrc
+
+set clipboard=unnamedplus
+
+# now when you yank in nvim, it will go to the Windows keyboard
+```
+
 - Install [VcXsrv](https://sourceforge.net/projects/vcxsrv/)
 
 
