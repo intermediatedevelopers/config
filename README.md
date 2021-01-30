@@ -196,7 +196,12 @@ set clipboard=unnamedplus
     - select all checkboxes > next
     - finish
     
-
+- if having issues, you may need to allow Xming and VcXsrv through the firewall
+- Start > Windows Security > Allow an app through firewall
+- Change Settings 
+- Tick all boxes for anything Xming and VcXsrv
+- Restart XLaunch
+- Restart Terminal
 
 ## Install GNU Stow
 
