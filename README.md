@@ -166,20 +166,19 @@ make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
 ```
 
-- you may need to set the vim runtimes
-```
-VIMRUNTIME="/usr/local/share/nvim/runtime"
-```
-> Note that this line is not included in the .zshrc for this dotfiles repo. If you are building neovim from source, copy this path down somewhere. You will need to add it to the .zshrc after syncing the dotfiles from this repo
-
-- source the config 
-
-`source ~/.zshrc`
-
 
 ## Confirm Neovim Installation
 
 `nvim --version`
+
+## Clipboard support
+
+`sudo apt-get install vim-gtk`
+
+`sudo apt-get install xclip`
+
+- Install [VcXsrv](https://sourceforge.net/projects/vcxsrv/)
+
 
 ## Install GNU Stow
 
