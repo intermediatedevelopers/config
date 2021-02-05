@@ -272,3 +272,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 `.\install.ps1`
 
 - open Windows Terminal config with <kb>CTRL<kb> + <kb>,<kb>
+
+- update the `fontFace` setting in the config
+
+- `"fontFace": "DroidSansMono Nerd Font"`
