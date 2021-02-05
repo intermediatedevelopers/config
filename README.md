@@ -275,4 +275,10 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 - update the `fontFace` setting in the config
 
+- to confirm which fonts are available to Windows, open Settings > Fonts > search for "nerd"
+
 - `"fontFace": "DroidSansMono Nerd Font"`
+
+- update the fonts in WSL
+
+`fc-cache -f -v`
