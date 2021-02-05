@@ -259,3 +259,16 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 - source the vimrc
 
 `so %`
+
+## Fonts
+
+- In order for the vim dev icons to work, you will need powerline/nerd fonts installed
+- open PowerShell as admin
+- clone the fonts repo
+`git clone https://github.com/powerline/fonts.git`
+
+`cd fonts`
+
+`.\install.ps1`
+
+- open Windows Terminal config with <kb>CTRL<kb> + <kb>,<kb>
