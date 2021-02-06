@@ -194,6 +194,7 @@ set clipboard=unnamedplus
     - multiple windows > next
     - start no client > next
     - select all checkboxes > next
+    - save configuration to `C:\Users\<yourUserName>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
     - finish
     
 - if having issues, you may need to allow Xming and VcXsrv through the firewall
